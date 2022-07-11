@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    .content h1 {
+        color: white;
+        margin: 20px 0px 20px;
+        font-size: 65px;
+    }
+    .content h3 {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .content h4 {
+        color: rgb(163, 163, 163);
+        letter-spacing: 2px;
+        font-size: 17px;
+    }
+    .main .about-text h2 {
+        color: white;
+        font-size: 60px;
+        text-transform: capitalize;
+        background-color: rgb(224, 178, 28);
+        border-radius: 15px;
+        height: 80px;
+        width: 6.5cm;
+        margin-left: 5px;
+        margin-top: -1cm;
+    }
+    .about-text p {
+        color:rgb(163, 163, 163);
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-size: 19px;
+        margin-left: 5px;
+    }
+    .main img {
+        height: auto;
+        width: 400px;
+        padding: 30px;
+    }
+    .logos img {
+        width: 300px;
+        position: absolute;
+        margin-inline: -8.5cm;
+        margin-top: 4.5cm;
+    }
+}

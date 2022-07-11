@@ -1,0 +1,105 @@
+@media (max-width: 476px) {
+    .content {
+        position: absolute;
+        top: 40%;
+        left: 8%;
+        transform: translateY(-50%);
+    }
+    .content h1 {
+        color: white;
+        margin: 20px 0px 20px;
+        font-size: 30px;
+    }
+    .content h3 {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .content h4 {
+        color: rgb(163, 163, 163);
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    .main .about-text h2 {
+        grid-template-columns: 1fr;
+        color: white;
+        margin-top: 2cm;
+        font-size: 30px;
+        text-transform: capitalize;
+        background-color: rgb(224, 172, 28);
+        border-radius: 15px;
+        height: 40px;
+        width: 3.5cm;
+        margin-left: 5px;
+    }
+    .about {
+        width: 100%;
+        padding: 100px;
+        background-color:rgb(24, 24, 24);
+    }
+    .main img {
+        height: auto;
+        width: 200px;
+        padding: 0;
+    }
+    .logos img {
+        width: 200px;
+        position: absolute;
+        margin-inline: -371px;
+        margin-top: 3.5cm;
+    }
+    .about-text p {
+        color: rgb(163, 163, 163);
+        letter-spacing: 1px;
+        line-height: 14px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contact-grid card-form {
+        margin-left: 2cm;
+    }
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        margin-left: 3rem;
+        color: rgb(24, 24, 24);
+    }
+    .container h2 {
+        color: white;
+        font-size: 40px;
+        margin-left: 1.1cm;
+        text-transform: capitalize
+    }
+    .row-v-center {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .footer-distributed {
+        background-color: rgb(103, 103, 103);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 12px sans-serif;
+        padding: 50px 50px 60px 50px;
+        margin-top: auto;
+    }
+    .socialnets .row-v-center {
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+    

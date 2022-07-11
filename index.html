@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <script src="./scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/8fc3844dd1.js" crossorigin="anonymous"></script>
+    <link href="./styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#">
+                PORTFOLIO J.H.C.     
+            </a>
+        <ul class="nav-list-desktop">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <ul class="nav-list-mobile">
+            <li onclick="toggleNavbar()">
+                <i class="fas fa-bars"></i>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <section id="jumbotron">
+        <div class="container">
+            <div class="jumbotron-grid">
+                <div>
+                    <picture>
+                        <img src="./assets/portafolio.png" alt="Hola, soy Jeremias">
+                    </picture>
+                </div>
+                <div>
+                    <div class="content">
+                        <h4>Hello, my name is</h4>
+                        <h1>Jeremías Hierrezuelo</h1>
+                        <h3>I'am a young Web Programmer.</h3>
+                    </div>
+                </div>
+
+                <section id="about-me">
+                    <div class="main">
+                        <img src="./assets/yo3.jpg">
+                        <div class="about-text">
+                            <h2>Who am i</h2>
+                            <p>I am in my last year of high school, I attend Colegio Don Bosco, I am 17 years old and I am from San Juan, Argentina. 
+                                I am currently taking a Web Programming course with languages in HTML, CSS and JAVA SCRIPT.
+                                I am a very responsible and dedicated person, I like to pay attention to the details of each job I do in any field.
+                               For my near future I would like to study Information Systems Engineering at the UTN in Mendoza, Argentina.
+                               I am currently studying English at Instituto Saint Paul and I like to go to the gym as a physical activity.</p>
+                        </div>
+                        <div class="logos">
+                            <img src="./assets/logosweb.png">
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="projects">
+                    <div class="container">
+                        <h2 class="projects">Projects</h2>
+                        <div class="projects-grid">
+                            <div class="card">
+                                <figure class="card-picture">
+                                    <img src="./assets/JARDINERIA WEB.png">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="text-subtitle-1">E-COMMERCE</h3>
+                                    <p class="text-body-1">
+                                        A product section was developed, 
+                                        where there is a section with cards/boxes with products, 
+                                        which have a photo, name and price. Flexbox and position: absolute.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="card">
+                                <figure class="card-picture">
+                                    <img src="./assets/cUESTIONARIO.png">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="text-subtitle-1">FORM</h3>
+                                    <p class="text-body-1">
+                                         A form with some questions and a button was developed.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure class="card-picture">
+                                    <img src="./assets/Lista de compras.png">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="text-subtitle-1">SHOPPING LIST</h3>
+                                    <p class="text-body-1">
+                                        A shopping list was developed with products that have their names and images.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure class="card-picture">
+                                    <img src="./assets/Noticia html y  css.png">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="text-subtitle-1">NEWS-1</h3>
+                                    <p class="text-body-1">
+                                        A story was developed and backgrounds, colors and borders were placed on it.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <figure class="card-picture">
+                                    <img src="./assets/Noticia.png">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="text-subtitle-1">NEWS-2</h3>
+                                    <p class="text-body-1">
+                                        A news story was developed with a title, description, image and text (the content of the news).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact">
+                   <div class="container">
+                       <h2 class="contact">Keep in touch</h2>
+                       <div class="contact-grid">
+                           <div class="card-form">
+                              <h4>Send me a message...</h4>
+                              <form>
+                                  <input type="text" placeholder="Name">
+                                  <input type="email" placeholder="Email">
+                                  <textarea placeholder="Place your message here..."></textarea>
+                                  <button class="btn-block">Send</button>
+                              </form>
+                           </div>
+                           <div>
+                               <p class="socialnets">You can find me on:</p>
+                               <ul>
+                                   <li class="row-v-center">
+                                       <button class="btn btn-icon">
+                                        <a href="https://www.instagram.com/jeree_h/?hl=es-la">
+                                             <i class="fab fa-instagram"></i>
+                                        </a>
+                                       </button>
+                                       <span>@jeree_h</span>
+                                   </li>
+                                   <li class="row-v-center">
+                                    <button class="btn btn-icon">
+                                    <a href="https://www.facebook.com/jere.hierre21/">
+                                         <i class="fab fa-facebook"></i>
+                                    </a>
+                                    </button>
+                                    <span>@Jere Hierrezuelo</span>
+                                </li>
+                                <li class="row-v-center">
+                                    <button class="btn btn-icon">
+                                    <a href="https://twitter.com/jereH21">
+                                         <i class="fab fa-twitter"></i>
+                                    </a>
+                                    </button>
+                                    <span>@jereH21</span>
+                                </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Web<span>Developer</span></h3>
+            <p class="footer-company-name">Copyright © 2022 <strong>Jeremías Hierrezuelo</strong> All Rights Reserved</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>San Juan, Argentina</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+5492645288368</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>hierre.jere@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

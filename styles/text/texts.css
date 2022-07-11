@@ -1,0 +1,39 @@
+.text picture img {
+    height: auto;
+    background-size: cover;
+}
+.about-text {
+    width: 550px;  
+}
+.main .about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    background-color: rgb(224, 172, 28);
+    border-radius: 15px;
+    height: 80px;
+    width: 9cm;
+    margin-left: -1cm;
+}
+.about-text p {
+    color:rgb(163, 163, 163);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 25px;
+    margin-left: -1cm;
+}
+.text-subtitle-1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.text-body-1 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.container h2 {
+    margin-top: 2cm;
+    margin-left: 1cm;
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize
+}

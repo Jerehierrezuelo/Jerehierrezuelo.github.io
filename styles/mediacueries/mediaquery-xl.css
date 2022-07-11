@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+    .main img {
+        padding: 50px;
+        width: 500px;
+    }
+    .logos img {
+        width: 400px;
+        position: absolute;
+        margin-inline: -12cm;
+        margin-top: 4cm;
+    }
+}
